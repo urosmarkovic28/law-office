@@ -252,4 +252,24 @@ CONTACT
 .contact article p {
   color: #33a5d7;
 }
+
+/************************
+MAP
+************************/
+.map iframe {
+  display: block;
+}
+
+/************************
+FOOTER
+************************/
+footer {
+  background: #3177b5;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */

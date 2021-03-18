@@ -175,3 +175,22 @@ CONTACT
         }
     }
 }
+/************************
+MAP
+************************/
+.map{
+    iframe{
+        display: block;
+    }
+}
+/************************
+FOOTER
+************************/
+footer{
+    background: $primary;
+    text-align: center;
+    padding: 20px;
+    p{
+        color: $white;
+    }
+}
