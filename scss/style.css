@@ -272,4 +272,73 @@ footer {
 footer p {
   color: #fff;
 }
+
+/************************
+SERVICES
+************************/
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: -80px;
+}
+
+.services article {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+.services article i {
+  font-size: 4rem;
+}
+
+.services article h3 {
+  font-size: 1.8rem;
+  margin: 20px 0;
+}
+
+.services article button {
+  padding: 10px 40px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  margin-top: 30px;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.services article button:hover {
+  background: #fff;
+  color: #3177b5;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.services article:nth-child(odd) {
+  background: #3177b5;
+}
+
+.services article:nth-child(even) {
+  background: #33a5d7;
+}
 /*# sourceMappingURL=style.css.map */
