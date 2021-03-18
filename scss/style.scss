@@ -20,6 +20,29 @@ MIXIN
     align-items: $align;
     flex-direction: $direction;
 }
+@mixin bgImg($height){
+    height: $height;
+    background-position: center;
+    background-size: cover;
+
+}
+@mixin btn() {
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 2px solid $white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    margin-top: 30px;
+    color: $white;
+    cursor: pointer;
+    transition: $transition;
+    &:hover{
+        background: $white;
+        color: $primary;
+        transition: $transition;
+    }
+}
 /************************
 BASIC STYLE
 ************************/
@@ -30,6 +53,7 @@ BASIC STYLE
 }
 body{
     font-family: $fontFamily;
+    font-size: $fontSize;
 }
 a{
     text-decoration: none;
@@ -44,6 +68,12 @@ ul{
     width: 85%;
     margin: auto;
 }
+h1{
+    text-transform: uppercase;
+    font-size: 3.2rem;
+    font-weight:400;
+    text-shadow: 0 0 2px $tertiary; 
+}
 /************************
 TOP BAR
 ************************/
@@ -53,6 +83,7 @@ TOP BAR
     font-size: 1.7rem;
     .logo{
         color: $primary;
+        transition: $transition;
         span{
             color: $secondary;
             font-weight: 700;
@@ -82,5 +113,37 @@ TOP BAR
                 background-color: $secondary;
             }
         }
+    }
+}
+/************************
+MAIN HEADER
+************************/
+.mainHeader{
+    background-image: linear-gradient(rgba($primary,.7), rgba($primary,.7)), url(../img/header.jpg);
+    @include bgImg(90vh);
+    nav{
+        padding-top: 20px;
+        ul{
+            @include flex(flex-end,center);
+            a{
+                color: white;
+                font-size: 1.3rem;
+                margin-left: 40px;
+            }
+        }
+    }
+    hgroup{
+        @include flex(center,center,column);
+        height: 90vh;
+        text-align: center;
+        width: 50%;
+        color: $white;
+        margin: auto;
+        p{
+            font-size: 1.2rem;
+        }
+        button{
+            @include btn();
+        }       
     }
 }

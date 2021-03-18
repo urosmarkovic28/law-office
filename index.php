@@ -19,5 +19,22 @@
             <li><a href=""><i class="fab fa-instagram"></i></a></li>
         </ul>
     </section>
+    <!--Main Header-->
+    <header class="mainHeader">
+        <nav class="container">
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="About.php">About</a></li>
+                <li><a href="Blog.php">Blog</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+        </nav>
+        <hgroup>
+            <h1>Experience - Trust - Results</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, ea. Fugit ab nihil eveniet accusamus vel. Accusantium eos, voluptate. Quos recusandae voluptas adipisci ipsa officia, repellendus ea similique labore obcaecati? Fugit ab nihil eveniet accusamus vel. Accusantium eos, voluptate. Quos recusandae voluptas adipisci ipsa officia, repellendus ea similique labore obcaecati?</p>
+            <button>View more</button>
+        </hgroup>
+    </header>
+    
 </body>
 </html>
