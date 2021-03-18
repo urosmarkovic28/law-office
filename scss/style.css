@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+/************************
+MIXIN
+************************/
+/************************
+BASIC STYLE
+************************/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+/************************
+TOP BAR
+************************/
+.topBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 10px 0;
+  font-size: 1.7rem;
+}
+
+.topBar .logo {
+  color: #3177b5;
+}
+
+.topBar .logo span {
+  color: #33a5d7;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.topBar .logo:hover {
+  opacity: .8;
+}
+
+.topBar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.topBar ul a {
+  background-color: #3177b5;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  display: inline-block;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+  margin-left: 30px;
+}
+
+.topBar ul a:hover {
+  -webkit-box-shadow: 0 0 10px #a0a0a0;
+          box-shadow: 0 0 10px #a0a0a0;
+  background-color: #33a5d7;
+}
+/*# sourceMappingURL=style.css.map */
