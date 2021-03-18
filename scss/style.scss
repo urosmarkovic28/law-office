@@ -43,6 +43,14 @@ MIXIN
         transition: $transition;
     }
 }
+@mixin underline($color, $width){
+    background: $color;
+    display: block;
+    height: 2px;
+    content: "";
+    margin: 0 0 20px 0;
+    width: $width;
+}
 /************************
 BASIC STYLE
 ************************/
@@ -134,7 +142,7 @@ MAIN HEADER
     }
     hgroup{
         @include flex(center,center,column);
-        height: 90vh;
+        height: 75vh;
         text-align: center;
         width: 50%;
         color: $white;
@@ -145,5 +153,25 @@ MAIN HEADER
         button{
             @include btn();
         }       
+    }
+}
+/************************
+CONTACT
+************************/
+.contact{
+    padding: $padding;
+    @include flex(space-between,center);
+    article{
+        flex: 1;
+        h3{
+            color: $primary;
+            font-size: 2rem;
+            &::after{
+                @include underline($primary,50px);
+            }
+        }
+        p{
+            color: $secondary;
+        }
     }
 }

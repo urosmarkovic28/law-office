@@ -175,7 +175,7 @@ MAIN HEADER
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 90vh;
+  height: 75vh;
   text-align: center;
   width: 50%;
   color: #fff;
@@ -205,5 +205,51 @@ MAIN HEADER
   color: #3177b5;
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
+}
+
+/************************
+CONTACT
+************************/
+.contact {
+  padding: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.contact article {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.contact article h3 {
+  color: #3177b5;
+  font-size: 2rem;
+}
+
+.contact article h3::after {
+  background: #3177b5;
+  display: block;
+  height: 2px;
+  content: "";
+  margin: 0 0 20px 0;
+  width: 50px;
+}
+
+.contact article p {
+  color: #33a5d7;
 }
 /*# sourceMappingURL=style.css.map */
