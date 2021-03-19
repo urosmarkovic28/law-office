@@ -84,4 +84,22 @@
             </article>
         </div>
     </section>
+    <section class="testimonials">
+        <h2>Testimonials</h2>
+        <article class="owl-carousel owl-theme">
+            <div class="item">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia reiciendis voluptate sequi doloremque, provident odio blanditiis, laudantium ipsam labore enim maiores eum voluptatem magni numquam culpa quasi, nulla itaque? Laboriosam.</p>
+                <h3>Client name 1</h3>
+            </div>
+            <div class="item">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia reiciendis voluptate sequi doloremque, provident odio blanditiis, laudantium ipsam labore enim maiores eum voluptatem magni numquam culpa quasi, nulla itaque? Laboriosam.</p>
+                <h3>Client name 2</h3>
+            </div>
+            <div class="item">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia reiciendis voluptate sequi doloremque, provident odio blanditiis, laudantium ipsam labore enim maiores eum voluptatem magni numquam culpa quasi, nulla itaque? Laboriosam.</p>
+                <h3>Client name 3</h3>
+            </div>
+        </article>
+    </section>
+    
 <?php include 'partials/footer.php' ?>    
