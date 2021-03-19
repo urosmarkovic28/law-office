@@ -421,8 +421,8 @@ About
           flex: 0 0 50%;
   padding-right: 10%;
   color: #fff;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(8, 0, 51, 0.5)), to(rgba(8, 0, 51, 0.5))), url(../img/about.jpg);
-  background-image: linear-gradient(rgba(8, 0, 51, 0.5), rgba(8, 0, 51, 0.5)), url(../img/about.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/about.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/about.jpg);
   height: 50vh;
   background-position: center;
   background-size: cover;
@@ -454,5 +454,39 @@ About
 
 .about article:last-child h2 span {
   font-weight: 700;
+}
+
+/************************
+TEAM
+************************/
+.team {
+  text-align: center;
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/team.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/team.jpg);
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.team h2 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.team h2::after {
+  background: #fff;
+  display: block;
+  height: 2px;
+  content: "";
+  margin: 0 0 20px 0;
+  width: 50px;
+  margin: 0px auto 20px auto;
+}
+
+.team p {
+  width: 50%;
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */

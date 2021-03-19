@@ -37,5 +37,10 @@
             <h2>Welcome to <br> <span>Solo Practice</span> <br> Law</h2>
         </article>
     </section>
-
+    <!-- TEAM  -->
+    <section class="team">
+        <h2>Our team</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae facilis culpa veniam facere quis laudantium repellendus eveniet ipsa debitis, consequatur aut tenetur optio cupiditate illum atque laboriosam, dolorem delectus totam nisi deserunt nemo sapiente ex? Soluta, cum hic. Vitae molestias mollitia officia accusamus voluptatum eius inventore quidem quibusdam accusantium cum voluptatibus beatae rerum deserunt ut eveniet nulla aliquid praesentium, doloremque numquam impedit laborum. Consectetur autem ratione, adipisci magni voluptas accusamus maxime placeat minus odit, mollitia quisquam. Ipsum doloremque consectetur impedit.</p>
+        
+    </section>
 <?php include 'partials/footer.php' ?>    
