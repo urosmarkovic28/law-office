@@ -73,7 +73,7 @@ ul{
     list-style: none;
 }
 .container{
-    width: 85%;
+    width: 80%;
     margin: auto;
 }
 h1{
@@ -221,5 +221,56 @@ SERVICES
     }
     article:nth-child(even){
         background: $secondary;
+    }
+}
+/************************
+About
+************************/
+.about{
+    @include flex(center, center);
+
+    article:first-child{
+        flex: 0 0 50%;
+        background-color: $gray;
+        padding-left: 10%;
+        padding-right: 30px;
+        height: 50vh;
+        @include flex(center,flex-start ,column );
+        h2{
+            font-size: 2.5rem;
+            color: $primary;
+            &::after{
+                @include underline($primary, 50px);
+            }
+        }
+        p{
+            color: $primary;
+        }
+        a{
+            margin-top: 20px;
+            color: $primary;
+            &:hover{
+                color: $secondary;
+            }
+        }
+    }
+    article:last-child{
+        flex: 0 0 50%;
+        padding-right: 10%;
+        color: $white;
+        background-image:linear-gradient(rgba($tertiary,.5), rgba($tertiary,.5)) ,url(../img/about.jpg);
+        @include bgImg(50vh);
+        @include flex(flex-end,center);
+        h2{
+            border: 2px solid $white;
+            padding: 70px;
+            text-align: center;
+            font-size: 2.5rem;
+            color: $white;
+            font-weight: 400;
+            span{
+                font-weight: 700;
+            }
+        }
     }
 }

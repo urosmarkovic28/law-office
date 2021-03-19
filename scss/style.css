@@ -31,7 +31,7 @@ ul {
 }
 
 .container {
-  width: 85%;
+  width: 80%;
   margin: auto;
 }
 
@@ -340,5 +340,119 @@ SERVICES
 
 .services article:nth-child(even) {
   background: #33a5d7;
+}
+
+/************************
+About
+************************/
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.about article:first-child {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  background-color: #eaeaea;
+  padding-left: 10%;
+  padding-right: 30px;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about article:first-child h2 {
+  font-size: 2.5rem;
+  color: #3177b5;
+}
+
+.about article:first-child h2::after {
+  background: #3177b5;
+  display: block;
+  height: 2px;
+  content: "";
+  margin: 0 0 20px 0;
+  width: 50px;
+}
+
+.about article:first-child p {
+  color: #3177b5;
+}
+
+.about article:first-child a {
+  margin-top: 20px;
+  color: #3177b5;
+}
+
+.about article:first-child a:hover {
+  color: #33a5d7;
+}
+
+.about article:last-child {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  padding-right: 10%;
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(8, 0, 51, 0.5)), to(rgba(8, 0, 51, 0.5))), url(../img/about.jpg);
+  background-image: linear-gradient(rgba(8, 0, 51, 0.5), rgba(8, 0, 51, 0.5)), url(../img/about.jpg);
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.about article:last-child h2 {
+  border: 2px solid #fff;
+  padding: 70px;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+.about article:last-child h2 span {
+  font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */
