@@ -84,6 +84,21 @@
             </article>
         </div>
     </section>
+    <!-- consultation -->
+    <section class="consultation">
+        <article>
+            <h2>Get a free no <br> <span>obligation</span> <br> conslutation</h2>
+        </article>
+        <article>
+            <form >
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Last name">
+                <input type="email" placeholder="Email">
+                <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                <button>Submit</button>
+            </form>
+        </article>
+    </section>
     <section class="testimonials">
         <h2>Testimonials</h2>
         <article class="owl-carousel owl-theme">
