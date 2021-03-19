@@ -282,7 +282,7 @@ TEAM
     color: $white;
     background-image:linear-gradient(rgba($black,.7), rgba($black,.7)) , url(../img/team.jpg);
     @include bgImg(auto);
-    padding: $padding;
+    padding: 100px 0 200px 0;
     h2{
         font-size: 2.5rem;
         color: $white;
@@ -294,5 +294,56 @@ TEAM
     p{
         width: 50%;
         margin: auto;
+       
+    }
+}
+/************************
+People
+************************/
+.people{
+    background: $gray;
+    text-align: center;
+    color: $white;
+    .container{
+        @include flex(space-between,center);
+        padding-bottom: 100px;
+        article{
+            flex: 0 0 25%;
+            margin-top: -80px;
+            
+            img{
+                width: 100%;
+            }
+            .text{
+                @include flex(center,center,column);
+                padding: 40px;
+                h3{
+                    padding: 40px;
+                    &::after{
+                        @include underline(white,100px );
+                        margin: 20px auto;
+                    }
+                }
+            }
+          
+        }
+        article:nth-child(odd){
+            background: $primary;
+            button{
+                @include btn();
+                background: $secondary;
+                border: none;
+                width: 100%;
+            }
+        }
+        article:nth-child(even){
+            background: $secondary;
+            button{
+                @include btn();
+                background: $primary;
+                border: none;
+                width: 100%;
+            }
+        }
     }
 }

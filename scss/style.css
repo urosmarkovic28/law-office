@@ -467,7 +467,7 @@ TEAM
   height: auto;
   background-position: center;
   background-size: cover;
-  padding: 100px 0;
+  padding: 100px 0 200px 0;
 }
 
 .team h2 {
@@ -488,5 +488,133 @@ TEAM
 .team p {
   width: 50%;
   margin: auto;
+}
+
+/************************
+People
+************************/
+.people {
+  background: #eaeaea;
+  text-align: center;
+  color: #fff;
+}
+
+.people .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-bottom: 100px;
+}
+
+.people .container article {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+  margin-top: -80px;
+}
+
+.people .container article img {
+  width: 100%;
+}
+
+.people .container article .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px;
+}
+
+.people .container article .text h3 {
+  padding: 40px;
+}
+
+.people .container article .text h3::after {
+  background: white;
+  display: block;
+  height: 2px;
+  content: "";
+  margin: 0 0 20px 0;
+  width: 100px;
+  margin: 20px auto;
+}
+
+.people .container article:nth-child(odd) {
+  background: #3177b5;
+}
+
+.people .container article:nth-child(odd) button {
+  padding: 10px 40px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  margin-top: 30px;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  background: #33a5d7;
+  border: none;
+  width: 100%;
+}
+
+.people .container article:nth-child(odd) button:hover {
+  background: #fff;
+  color: #3177b5;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.people .container article:nth-child(even) {
+  background: #33a5d7;
+}
+
+.people .container article:nth-child(even) button {
+  padding: 10px 40px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  margin-top: 30px;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  background: #3177b5;
+  border: none;
+  width: 100%;
+}
+
+.people .container article:nth-child(even) button:hover {
+  background: #fff;
+  color: #3177b5;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
 }
 /*# sourceMappingURL=style.css.map */
