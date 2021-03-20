@@ -1,1 +1,1 @@
-# law_office
+# Treba odraditi responzive i ostale stranice
